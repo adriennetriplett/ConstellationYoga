@@ -1,7 +1,57 @@
 body {
 	background-color: #1e93b6;
+	color: #92278f;
 }
 
 .logo {
 	text-align: center;
+}
+
+.nav-custom {
+	color: #92278f;
+	background-color: white;
+}
+
+.nav-link {
+	font-size: 30px;
+}
+
+.nasaheading {
+	text-align: center;
+	color: #92278f;
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+.nasasubheading {
+	text-align: center;
+	color: #92278f;
+	font-weight: bold;
+}
+
+.nasacard {
+	margin: auto;
+	width: 80%;
+	border-radius: 1em;
+	box-shadow: 0 16px 30px 0 rgba(24, 24, 24, 0.7);
+	background-color: #f2a200;
+}
+
+.nasapic {
+	padding: 2em;
+	text-align: center;
+	border-radius: 50px;
+}
+
+.nasatext {
+	text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
 }
