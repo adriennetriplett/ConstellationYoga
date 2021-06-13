@@ -17,6 +17,7 @@ body {
 }
 
 p {
+	font-size: 20px;
 	font-weight: bold;
 }
 
@@ -30,7 +31,7 @@ p {
 
 .navbar a {
 	float: left;
-	width: 33%;
+	width: 33.33%;
 	padding:12px;
 	text-align: center;
 	font-size: 1.7rem;
@@ -50,10 +51,12 @@ p {
 }
 
 .mainpic {
-	border-radius: 5em;
-	padding: 0, 2em;
+
+	padding: 2em;
 	text-align: center;
 	margin: 0;
+	text-align: center;
+	border-radius: 50px;
 }
 
 .nasacard {
