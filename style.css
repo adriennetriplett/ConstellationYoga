@@ -1,6 +1,13 @@
+html {
+	min-height: 100%;	
+}
+
 body {
-	background-color: #1e93b6;
-	color: #92278f;
+	background-color: black;
+	color: #000;
+		background-image: url("skybackground.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .logo {
@@ -10,20 +17,18 @@ body {
 }
 
 .maincontent {
-	background-image: url("skybackground.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
+
 	padding: 3em;
 }
 
 p {
 	font-size: 20px;
-	font-weight: bold;
+
 }
 
 .navbar {
 	background-color: #92278f;
-	color: #f2a200;
+	color: #C8C8C8;
 	width: 100%;
 	overflow: auto;
 	padding: 0px;
@@ -36,13 +41,13 @@ p {
 	text-align: center;
 	font-size: 1.7rem;
 	transition: background-color 0.2s;
-	color: #f2a200;
+	color: #C8C8C8;
 	text-decoration: none;
 	font-weight: bold;
 }
 
 .navbar a:hover {
-	background-color: #f2a200;
+	background-color: #C8C8C8;
 	color: #92278f;
 }
 
@@ -64,7 +69,7 @@ p {
 	width: 80%;
 	border-radius: 1em;
 	box-shadow: 0 16px 30px 0 rgba(24, 24, 24, 0.7);
-	background-color: #f2a200;
+	background-color: #C8C8C8;
 }
 
 .nasapic {
@@ -75,8 +80,9 @@ p {
 
 .nasatext {
 	text-align: center;
-	background-color: #f2a200;
+	background-color: #C8C8C8;
 	align-items: center;
+	border-radius: 1em;
 	
 }
 
