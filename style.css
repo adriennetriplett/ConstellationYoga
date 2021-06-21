@@ -5,7 +5,7 @@ html {
 body {
 	background-color: black;
 	color: #000;
-		background-image: url("skybackground.jpg");
+	background-image: url("images/skybackground.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -17,13 +17,11 @@ body {
 }
 
 .maincontent {
-
 	padding: 3em;
 }
 
 p {
 	font-size: 20px;
-
 }
 
 .navbar {
@@ -83,7 +81,6 @@ p {
 	background-color: #C8C8C8;
 	align-items: center;
 	border-radius: 1em;
-	
 }
 
 .nasaheading {
