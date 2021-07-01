@@ -6,7 +6,6 @@ const apod_img_id = document.getElementById('apod_img_id');
 const apod_vid_id = document.getElementById('apod_vid_id');
 const reqObject = document.getElementById('reqObject');
 const returnObject = document.getElementById('returnObject');
-const apod_explanation = document.getElementById('apod_explanation');
 const apod_title = document.getElementById('apod_title');
 
 function loadXMLDoc() {
@@ -23,7 +22,6 @@ function loadXMLDoc() {
       }
       reqObject.innerText = url;
       returnObject.innerText = JSON.stringify(result, null, 4);
-      apod_explanation.innerText = result.explanation;
       apod_title.innerText = result.title;
     }
   };
