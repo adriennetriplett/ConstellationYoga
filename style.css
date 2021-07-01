@@ -5,9 +5,12 @@ html {
 body {
 	background-color: black;
 	color: #000;
-	background-image: url("images/skybackground.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	background-image: url("images/skybackground.jpg");
+	height: 100%;
 }
 
 .logo {
