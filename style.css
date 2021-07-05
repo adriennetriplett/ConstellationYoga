@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	background-color: white;
+	background-color: #C8C8C8;
 	color: #000;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -13,7 +13,7 @@ body {
 }
 
 .logo {
-	max-height: 20vw;
+	max-height: 15vw;
 	padding: 1em;
 }
 
@@ -31,10 +31,11 @@ p {
 	width: 100%;
 	overflow: auto;
 	padding: 0px;
-	background-image: url("images/skybackground.jpg");
+	background-image: url("images/navbackground.png");
 }
 
 .navbar a {
+	font-family: 'Kaushan Script', cursive;
 	float: left;
 	width: 33.33%;
 	padding:12px;
@@ -56,7 +57,6 @@ p {
 }
 
 .mainpic {
-
 	padding: 2em;
 	text-align: center;
 	margin: 0;
@@ -99,7 +99,6 @@ p {
 .bold {
 	font-weight: bold;
 }
-
 
 
 @media screen and (max-width: 700px) {
