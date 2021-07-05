@@ -3,20 +3,18 @@ html {
 }
 
 body {
-	background-color: black;
+	background-color: white;
 	color: #000;
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin: 0;
 	padding: 0;
-	background-image: url("images/skybackground.jpg");
 	height: 100%;
 }
 
 .logo {
-	text-align: center;
-	margin: auto;
-	padding: auto;
+	max-height: 20vw;
+	padding: 1em;
 }
 
 .maincontent {
@@ -33,6 +31,7 @@ p {
 	width: 100%;
 	overflow: auto;
 	padding: 0px;
+	background-image: url("images/skybackground.jpg");
 }
 
 .navbar a {
