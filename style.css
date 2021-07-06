@@ -10,11 +10,11 @@ body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
+	font-family: 'Kaushan Script', cursive;
 }
 
 .logo {
-	max-height: 20vw;
-	padding: 1em;
+	max-height: 21vw;
 }
 
 .maincontent {
@@ -26,11 +26,11 @@ p {
 }
 
 .navbar {
-	background-color: #92278f;
 	color: #C8C8C8;
 	width: 100%;
 	overflow: auto;
-	padding: 0px;
+	padding-left: 6vw;
+	padding-right: 6vw;
 	background-image: url("images/navbackground.png");
 }
 
@@ -38,13 +38,12 @@ p {
 	font-family: 'Kaushan Script', cursive;
 	float: left;
 	width: 33.33%;
-	padding:12px;
 	text-align: center;
-	font-size: 1.7rem;
+	font-size: 3vw;
 	transition: background-color 0.2s;
 	color: #C8C8C8;
 	text-decoration: none;
-	font-weight: bold;
+
 }
 
 .navbar a:hover {
@@ -103,9 +102,8 @@ p {
 	font-family: 'Kaushan Script', cursive;
 }
 
-
 @media screen and (max-width: 700px) {
-	.logo {
-		max-height: 50vw;
+	.navbar a {
+		font-size: 5vh;
 	}
 }
