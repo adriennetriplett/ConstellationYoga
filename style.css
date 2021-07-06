@@ -57,11 +57,13 @@ p {
 }
 
 .mainpic {
-	padding: 2em;
+	box-shadow: 0 16px 30px 0 rgba(24, 24, 24, 0.7);
 	text-align: center;
-	margin: 0;
-	text-align: center;
-	border-radius: 50px;
+	border-radius: 2em;
+}
+
+.maincard {
+
 }
 
 .nasacard {
@@ -102,10 +104,13 @@ p {
 
 
 @media screen and (max-width: 700px) {
-  .navbar a {
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: center;
-  }
+	.navbar a {
+		float: none;
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.mainpic {
+		padding: 7em;
+	}
 }
